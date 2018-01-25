@@ -11,4 +11,8 @@ attr_accessor :knowledge
     self.knowledge << string
   end
 
+  def knowledge
+    @knowledge
+  end
+
 end
