@@ -7,4 +7,8 @@ attr_accessor :knowledge
     @knowledge = []
   end
 
+  def learn(string)
+    self.knowledge << string
+  end
+
 end
